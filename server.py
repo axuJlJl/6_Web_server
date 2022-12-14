@@ -88,7 +88,7 @@ class HTTPServer:
 
     def send_response(self, status_code, conn, resp_body, message):
         response = f"""HTTP/1.1 {status_code} {message}
-Server: KirillZaycevWebServer v0.0.1
+Server: DenisEremeevServer
 Content-type: text/html
 Connection: close
 Date: {datetime.date.today()}
